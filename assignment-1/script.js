@@ -1,1 +1,3 @@
-var myName = Mike// JavaScript Document
+// JavaScript Document
+
+var firstname = "Mike";
