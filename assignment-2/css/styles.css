@@ -10,23 +10,30 @@
 
 
 body {
-	
     color:black;
     font-family:arial;
     line-height:1.4em;
     font-size:100%;
 	text-align:center;
+	background: url(../images/purgatory_2.jpg) no-repeat center center; 
+ 
 }
 
 
 #wrapper {
 	margin:0 auto;
-	padding: 2em 0 0 0;
-	width:76%;
+	width:100%;
 	overflow:hidden;
 	clear:both;
 	
 	}
+	
+header {
+	width:100%;
+	text-align:center;
+	padding: 1em 0 1em 1em;
+	}
+	
 
 
 
@@ -43,27 +50,28 @@ p {
 }
     
 h1 {
-    font-size: 3em;
+    font-size: 12em;
+	margin-top:5em;
     line-height: 1.2em;
-    margin-bottom: .4em;
-    color: black;
-    font-weight: 500;
-    color: black;
+	text-align:center;
+    color: red;
+    font-weight: 600;
+    color: red;
 	margin:0 auto;
 }
     
 h2 {
-    margin-top: 1em;
-    line-height: 1.4em;
+    line-height: 1em;
     font-size: 1.5em;
     color: black;
+	text-align:left;
 }
     
 h3 {
     margin-top: 0;
     line-height: 1.4em;
     font-size: 1.15em;
-     color: black;;
+    color: black;;
     font-weight: 100;
 }
     
